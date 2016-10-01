@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 4px solid #BCBBBB;
+}
+.banner{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+}
+section.featured-work{
+    display: flex;
+    flex-direction: column;
+}
+.featured-work h2{
+    color: #BCBBBB;
+}
+.featured-work-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.featured-work-main > div{
+    flex: 1;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.work h3{
+    color: #747704;
+    margin: 5px auto;
+    font-weight: bold;
+}
+.work h6{
+    margin: 5px auto;
+}
